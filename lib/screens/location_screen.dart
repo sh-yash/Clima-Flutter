@@ -20,7 +20,7 @@ class _LocationScreenState extends State<LocationScreen> {
     super.initState();
     updateUI(widget.locationWeather);
   }
-
+//this will update the UI for new weather data
   void updateUI(dynamic weatherData) {
     setState(() {
    if(weatherData==null)
